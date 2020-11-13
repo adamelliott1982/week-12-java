@@ -1,6 +1,6 @@
 
 
-// alert("Alert, Don't trust the Sheriff -unknown");
+alert("Alert, Don't trust the Sheriff -unknown");
 
 // var age = 0;
 // age = age+1;
@@ -16,7 +16,6 @@
 
 console.log("Health");
 var health = 50;
-console.log(health);
 
 var drinkWater = true;
 if (drinkWater) {
@@ -31,10 +30,10 @@ console.log(health);
 // drinkWater = false;
 
 
+
 console.log("Level of Trust");
 var trust = 0;
 trust += 100;
-console.log(trust);
 trust = (trust + 85)/2;
 console.log(trust);
 
@@ -42,9 +41,7 @@ console.log("Town Health");
 var townHealth = 100 ;
 console.log(townHealth);
 townHealth --;
-console.log(townHealth);
-townHealth--;
-console.log(townHealth);
+townHealth --;
 townHealth -= 50;
 console.log(townHealth);
 
@@ -55,20 +52,22 @@ console.log(exp);
 
 console.log("Level of Destructon");
 var destruction = 1;
-console.log(destruction);
+destruction = destruction * 5;
 destruction = destruction * 5;
 console.log(destruction);
 
-var goodbye = "Adios Muchacho!"
 
-
-
+var goodbye = "Adios Muchacho!";
 document.getElementById("leave-button").onclick = leave;
 function leave() {
     document.getElementById("page-header").innerHTML = "So Long from Sheriffville!";
-    document.getElementById("welcome-paragraph").innerHTML = "Adios Sucker, you made the ultimate mistake!  I was on the verge of taking over Java Land after I became Sheriff, and you were the only one who coulda stopped me...refresh your browser to try again...";
+    document.getElementById("page-header").style.color = "white";
+    document.getElementById("page-header").style.backgroundColor = "maroon";
+    document.getElementById("welcome-paragraph").innerHTML = "&quot;Adios Sucker, you made the ultimate mistake!  I was on the verge of taking over Java Land when I became Sheriff, and you were the only one who coulda stopped me...refresh your browser to try again...&quot;";
     document.getElementById("town-square-header").innerHTML = goodbye;
-    document.getElementById("town-square-paragraph").innerHTML = "It's burning...everything and everyone are dead...why did you forsake us...why..." + townHealth + " citizens remain out of 100...you monster";
+    document.getElementById("town-square-header").style.color = "white";
+    document.getElementById("town-square-header").style.backgroundColor = "maroon";
+    document.getElementById("town-square-paragraph").innerHTML = "&quot;It's burning...everything and everyone are dead...why did you forsake us...why..." + townHealth + " citizens remain out of 100...you monster...&quot;";
 }
 
 function colorBlue() {
