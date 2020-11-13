@@ -1,6 +1,6 @@
 
 
-alert("Alert, Don't trust the Sheriff -unknown");
+// alert("Alert, Don't trust the Sheriff -unknown");
 
 // var age = 0;
 // age = age+1;
@@ -69,6 +69,7 @@ function leave() {
     document.getElementById("town-square-header").style.backgroundColor = "maroon";
     document.getElementById("town-square-paragraph").innerHTML = "&quot;It's burning...everything and everyone are dead...why did you forsake us...why..." + townHealth + " citizens remain out of 100...you monster...&quot;";
 }
+//////////////////////////////////////////////// COLOR BUTTONS
 
 function colorBlue() {
     document.body.style.backgroundColor = "blue"
@@ -81,3 +82,6 @@ function colorRed() {
 function colorGrey() {
     document.body.style.backgroundColor = "grey"
 }
+
+
+

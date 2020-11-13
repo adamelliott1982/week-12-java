@@ -15,3 +15,37 @@ p{
     color: white;
     text-shadow: 0 0 5px black;
 }
+#image-button-container{
+    padding: 1rem;
+    background: maroon;
+    width: 20.5vw;
+    margin: auto;
+}
+#previous-image-button{
+    width: 10vw;
+}
+#next-image-button{
+    width: 10vw;
+}
+
+img{
+    width: 33vw;
+    display: block;
+    margin: auto;
+}
+#yoga-pics{
+    background-color: maroon;
+    padding: 20px;
+}
+#blue-button{
+    display: inline-block;
+    width: 31vw;
+}
+#red-button{
+    display: inline-block;
+    width: 31vw;
+}
+#grey-button{
+    display: inline-block;
+    width: 31vw;
+}
